@@ -1,9 +1,14 @@
 # Your Project's Title...
 Your project's description...
 
+
+
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: https://main--{repo}--{owner}.aem.page/ https://main--aem-edge--rajavijaysingh.aem.page/
+- Live: https://main--{repo}--{owner}.aem.live/ https://main--aem-edge--rajavijaysingh.aem.live/
+
+- Index https://admin.hlx.page/index/rajavijaysingh/aem-edge/main/nav
+
 
 ## Documentation
 
@@ -32,3 +37,6 @@ npm run lint
 1. Install the [AEM CLI](https://github.com/adobe/helix-cli): `npm install -g @adobe/aem-cli`
 1. Start AEM Proxy: `aem up` (opens your browser at `http://localhost:3000`)
 1. Open the `{repo}` directory in your favorite IDE and start coding :)
+
+before starting the proxy this is needed
+$ export NODE_EXTRA_CA_CERTS=KTMFG35K_CA_SSL\ \(3\).cer
