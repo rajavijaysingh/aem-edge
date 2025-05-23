@@ -255,3 +255,9 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+/*article theme*/
+body.article {
+  padding-left: 50px;
+  padding-right: 50px;
+}
