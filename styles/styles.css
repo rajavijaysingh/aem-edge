@@ -264,6 +264,29 @@ main .section.highlight {
   padding: 40px 0;
 }
 
+/*library metadata copied from live sidekick library style css*/
+.library-metadata {
+  margin-bottom: 75px;
+  padding: 20px;
+  background-color: var(--light-color);
+  border-radius: 8px;
+}
+
+.library-metadata > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.library-metadata > div > div:first-of-type {
+  text-transform: capitalize;
+  font-size: var(--heading-font-size-sm);
+  font-weight: 600;
+}
+
+.library-metadata > div > div:first-of-type::after {
+  content: ":";
+}
+
 /*article theme*/
 body.article {
   padding-left: 50px;
