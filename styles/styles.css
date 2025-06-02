@@ -283,7 +283,7 @@ main .section.highlight {
   font-weight: 600;
 }
 
-.library-metadata > div > div:first-of-type::after {
+.library-metadata > div :first-of-type::after {
   content: ":";
 }
 
