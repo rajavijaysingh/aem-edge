@@ -287,6 +287,13 @@ main .section.highlight {
   content: ":";
 }
 
+@media (width >= 600px) {
+  .library-metadata > div {
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+
 /*article theme*/
 body.article {
   padding-left: 50px;
