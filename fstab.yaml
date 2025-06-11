@@ -1,2 +1,4 @@
 mountpoints:
-  /: https://drive.google.com/drive/folders/1qOf72aR-P8DBmNSgBBn6gSx54_SvbNy3
+  /:
+    url: https://content.da.live/rajavijaysingh/aem-edge/
+    type: markup
