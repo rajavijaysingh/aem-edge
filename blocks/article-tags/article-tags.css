@@ -1,0 +1,20 @@
+/* blocks/article-tags/article-tags.css */
+.article-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.article-tag {
+  background-color: #f0f0f0;
+  padding: 0.3rem 0.8rem;
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  color: #333;
+  display: inline-block;
+}
+
+.article-tag:hover {
+  background-color: #e0e0e0;
+}

@@ -1,0 +1,17 @@
+/* blocks/article-header/article-header.css */
+.article-header {
+  margin-bottom: 2rem;
+}
+
+.article-title {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.article-byline {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}

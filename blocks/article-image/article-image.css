@@ -1,0 +1,23 @@
+/* blocks/article-image/article-image.css */
+.article-figure {
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.article-main-image {
+  width: 100%;
+  display: block;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.article-image-caption {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+  font-style: italic;
+}

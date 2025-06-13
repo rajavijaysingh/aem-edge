@@ -11,7 +11,11 @@ import {
   loadSection,
   loadSections,
   loadCSS,
+  getMetadata,
 } from './aem.js';
+
+// Import template-specific code
+import decorateArticleTemplate from './article-template.js';
 
 /**
  * Builds hero block and prepends to main in a new section.
@@ -54,6 +58,17 @@ function buildAutoBlocks(main) {
 }
 
 /**
+ * Apply template-specific decorations
+ * @param {Element} main The main element
+ */
+function applyTemplateDecorations(main) {
+  const template = getMetadata('template');
+  if (template === 'article') {
+    decorateArticleTemplate(main);
+  }
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -65,6 +80,7 @@ export function decorateMain(main) {
   buildAutoBlocks(main);
   decorateSections(main);
   decorateBlocks(main);
+  applyTemplateDecorations(main);
 }
 
 /**

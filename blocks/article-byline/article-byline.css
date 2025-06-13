@@ -1,0 +1,17 @@
+/* blocks/article-byline/article-byline.css */
+.article-byline-container {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.article-author {
+  font-weight: 500;
+}
+
+.article-date {
+  color: #777;
+}
